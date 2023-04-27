@@ -649,10 +649,55 @@ margin-right: 30px;
 
 
 
+.program-wrapper{
+  display: flex;
+  position: relative;
+}
+.program-bgc{
+  width: 50%;
+  height: 500px;
+  background-color: #271344;
+}
+.program-img img{
+  position: absolute;
+  right: 0;
+  height: 500px !important;
+  width: 50% !important;
+}
 
+.program-text ul{
+  display: flex;
+}
+.program-text ul li h4{
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #ff4880;
+    font-weight: 600;
+    font-family: schoolbell,cursive;
+    margin-right: 50px;
+}
+.program-text h2{
+  font-family: fredoka one,sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.program-text p{
+  color: #FFFFFF;
+  font-size: 17px;
+}
 
+.program-btn a img{
+  position: absolute;
+    left: 69%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
 
-
+.program-accor{
+  position: absolute;
+  width: 40%;
+}
 
 
 
