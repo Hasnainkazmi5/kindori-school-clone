@@ -177,11 +177,13 @@
   position: relative;
   bottom: 500px;
   left: 212px;
+  animation: updown 2s infinite;
 }
 .hero-logo-2{ 
   position: relative;
   bottom: 717px;
   left: 600px;
+  animation: leftright 5s infinite;
 }
 .hero-logo-2 img{ 
   height: 200px;
@@ -206,9 +208,10 @@
   color: white;
   border: none;
   padding: 15px 25px;
-  margin-right: 285px;
+  margin-right: 269px;
   border-radius: 12px;
   font-weight: bolder;
+  transition: background-color 0.5s ease-in-out;
 }
 .carousel-caption a button:hover{
   background-color: #271344;
@@ -223,7 +226,7 @@
 }
 .carousel-caption h3{
   color: #ff4880;
-  padding-right: 30px;
+  padding-right: 18px;
   font-size: 50px;
   font-size: 17px;
   text-transform: uppercase;
@@ -233,7 +236,7 @@
 }
 .carousel-caption h4{
   color: #271344;
-  padding-left: 150px;
+  padding-left: 162px;
   font-size: 50px;
   font-weight: bolder;
 }
@@ -268,8 +271,9 @@
 }
 
 .info-main-logo img{
-  margin-left: 50%;
+  margin-left: 47%;
   margin-top: 110px;
+  animation: leftright 5s infinite;
 }
 
 
@@ -299,8 +303,7 @@ border:2px dashed white ;
   margin-top: 8px;
   
 }
-.main-card-1:hover img{
-}
+
 .card-title-main {
   font-weight: bolder;
   padding-top: 20px;
@@ -390,12 +393,17 @@ margin-top: 8px;
   padding: 15px 25px;
   border-radius: 12px;
   font-weight: bolder;
+  transition: border-bottom 0.2s ease-in-out;
 }
 .main-card-footer-button:hover a button{
   border-bottom: 5px solid  #c51e50 !important;
 }
-
-
+.card{
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+  transform: translateY(-20px);
+}
 
 
 .school-promo{
@@ -405,6 +413,9 @@ margin-top: 8px;
 .school-promo-img{
   display: flex ;
   justify-content: space-between;
+}
+.school-promo-img figure img{
+  animation: leftright 4s infinite;
 }
 .school-promo-text ul{
   display: flex;
@@ -431,6 +442,7 @@ margin-top: 8px;
   border-radius: 12px;
   font-weight: bolder;
   margin: 15px 0;
+  transition: background-color 0.5s ease-in-out;
 }
 .school-promo-text a button:hover{
   background-color: #271344;
@@ -466,7 +478,15 @@ margin-top: 8px;
   color: #7A7A7A;
   font-size: 16px;
 }
-
+.kid-logo-left img{
+  animation: leftright 5s infinite;
+}
+.kid-logo-right{
+  animation: updown 4s infinite;
+}
+.kid-wrapper-bottem{
+  animation: updown 4s infinite;
+}
 .kid-wrapper-main{
   display: flex;
   justify-content: space-between;
@@ -626,3 +646,58 @@ margin-right: 30px;
 .kid-wrapper-bottem{
   margin-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes leftright {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
