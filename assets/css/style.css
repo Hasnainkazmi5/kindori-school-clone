@@ -919,7 +919,7 @@ border:3px dashed white ;
 }
 
 .teacher-btn {
-  margin-left: 50%;
+  margin-left: 47%;
     transform: translateX(-15%);
     padding: 60px 0;
 }
@@ -928,7 +928,6 @@ border:3px dashed white ;
   color: white;
   border: none;
   padding: 15px 25px;
-  margin-right: 269px;
   border-radius: 12px;
   font-weight: bolder;
   transition: background-color 0.5s ease-in-out;
@@ -936,6 +935,178 @@ border:3px dashed white ;
 .teacher-btn a button:hover{
   background-color: #271344;
 }
+.teacher-card{
+  width: 320px;
+  margin-right: 20px;
+}
+
+
+.our-img-text{
+  margin-left: 27%;
+  font-size: 45px !important;
+  font-weight: bolder !important;
+}
+
+
+.enroll-wrapper{
+  background-color: rgb(163, 214, 80);
+}
+
+.enroll-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.enroll-text h2{
+  color: white;
+  font-weight: bolder;
+}
+.enroll-text h5{
+  color: white;
+  font-weight: bolder;
+}
+
+.enroll-btn a button{
+  background-color:white;
+  color: black;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-weight: bolder;
+  transition: border-bottom 0.2s ease-in-out;
+}
+.enroll-btn:hover a button{
+  background-color: rgb(252, 49, 225);
+  color: white;
+}
+
+
+
+.footer-wrapper{
+  background-color: #351C5A;
+}
+.col-1 {
+  padding-bottom: 30px;
+}
+.col-1 img{
+  width: 185px;
+  padding: 50px 0 25px 0;
+}
+.col-1 p{
+  color: white;
+  font-weight: bold;
+}
+.navbar-f ul{
+  display: flex;
+  padding-left: 0;
+}
+
+.col-2 h1{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  padding: 50px 0 13px 0;
+}
+.col-2 ul{
+  padding-left: 0;
+}
+.col-2 ul li{
+  padding: 7px 0;
+}
+
+.col-3 h1{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  padding: 50px 0 13px 0;
+}
+.col-3 ul{
+  padding-left: 17px;
+}
+.col-3 ul li{
+  color: white;
+  list-style-type:  square;
+  
+}
+.col-3 ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+.col-3 ul li a:hover span{
+  color: #FFC000;
+  border-bottom: 1px solid #ffc000;
+}
+.col-4 h1{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  padding: 50px 0 13px 0;
+}
+.col-4 p{
+  color: white;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.footer-btn a button{
+  background-color:#ff4880;
+  color: white;
+  border: none;
+  padding: 13px 66px;
+  margin: 10px 0 10px 4px;
+  border-radius: 12px;
+  font-weight: bolder;
+}
+.footer-btn:hover a button{
+  color: #271344;
+  background-color: white;
+}
+.footer-wrapper-2{
+  background-color: #271344;;
+}
+.col-f1{
+  display: flex;
+}
+.col-f1 h4{
+  color: white;
+  font-size: 16px;
+  padding: 35px 0;
+  
+}
+.col-f1 a h4{
+  list-style-type: none ;
+  color: #FFC000;
+  padding: 35px 10px;
+}
+.col-f1 a:hover h4 {
+  color: #86F4B1 ;
+}
+.col-f2{
+  display: flex;
+}
+.col-f2 a{
+  list-style-type: none;
+}
+.col-f2 h4{
+  color: white;
+  font-size: 16px;
+  padding: 35px 0;
+}
+.col-f2 a:hover h4 {
+  color: #FFC000 ;
+  border-bottom: 1 px #FFC000;
+}
+
+
 
 
 
