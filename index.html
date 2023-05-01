@@ -1208,7 +1208,7 @@ function topFunction() {
                   items:1,
                   nav:true
               },
-              600:{
+              800:{
                   items:1,
                   nav:true
               },
@@ -1240,8 +1240,25 @@ function topFunction() {
     
 })
     </script>
-
-
+    <script>
+      $(document).ready(function(){
+  $(".my-carousel-1").owlCarousel({
+    items: 3,
+    margin: 10,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      992: {
+        items: 3
+      }
+    }
+  });
+});
+</script>
     <script>
       $(document).ready(function(){
         $(".my-carousel-2").owlCarousel({
